@@ -1,0 +1,22 @@
+# Local Terraform directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Lock file (we DO want to commit this)
+# !.terraform.lock.hcl  # Keep this commented - we actually want to commit the lock file
+
+# Crash log files
+crash.log
+
+# Exclude .tfvars files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc

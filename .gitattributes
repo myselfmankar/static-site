@@ -1,0 +1,12 @@
+# Set default behavior for all files
+* text=auto
+
+# Force Terraform files to use LF
+*.tf text eol=lf
+*.hcl text eol=lf
+*.tfvars text eol=lf
+
+# Binary files should not be modified
+*.png binary
+*.jpg binary
+*.gif binary
